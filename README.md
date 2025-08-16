@@ -17,6 +17,7 @@ source .venv/bin/activate   # On Linux/Mac
 pip install -r requirements.txt
 4. Install Ollama and pull a model (e.g., llama3):
 ollama pull llama3
+
 ▶️ Usage
 Run the script with a requirement:
 python script.py "As a user, I should be able to reset my password using my registered email"
@@ -47,10 +48,7 @@ python script.py "As a user, I should be able to reset my password using my regi
     "expected": "System should show an error message: 'Email not found'"
   }
 ]
-📌 Roadmap
-- [ ] Add Excel export option
-- [ ] Integrate with Test Management Tools (e.g., Jira, TestRail)
-- [ ] Support multiple models (GPT, Mistral, etc.)
+
 🤝 Contributing
 Contributions are welcome! Feel free to fork this repo and submit a pull request.
 
